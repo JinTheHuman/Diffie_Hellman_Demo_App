@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  border: gray solid 30px;
+  border-radius: 30px;
+
+  height: 60%;
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container > * {
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+
+.key-info {
+  height: auto;
+  border-left: solid black 2px;
+  background-color: #1c586f;
+}
+
+.Message-Display {
+  height: auto;
+  width: auto;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: stretch;
+}
+
+.createSecret {
+  display: inline-block;
+  color: blue;
+  background-color: white;
+  border: solid red;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.createSecret:hover {
+  border: solid greenyellow;
+  color: blue;
+}
+
+.value {
+  display: inline-block ;
+  font-size: large;
+  color: red;
+}
+
+.valueBox {
+  background-color: white;
+  border-radius: 4vh;
+  padding-left: 3vh;
+}
+
+.sendButton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border: 2px solid red;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+.sendButton:hover {
+  border: greenyellow solid 2px;  
+}
+
+.diffie {
+  color: green;
+  font-weight: 600;
+}
+
+.A {
+  color: blue;
+  font-weight: 600;
+}
+
+.key {
+  color: gold;
+  font-weight: 600;
+}
+
+.title {
+  display: block;
+  font-size: large;
+  text-align: center;
+  background-color: #efe81b;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+.name {
+  text-align: center;
+}

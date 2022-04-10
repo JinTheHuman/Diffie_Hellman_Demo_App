@@ -1,0 +1,35 @@
+.Messages-list {
+  max-height: 100%;
+  height: 100%;
+
+  max-width: 200px;
+  min-width: 100%;
+  overflow-x: auto;
+
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  padding-bottom: 3px;
+  border-bottom: lightgrey solid 1px;
+
+  background-color: #1c586f;
+}
+
+.Messages-list > :first-child {
+  margin-top: auto !important;
+  /* use !important to prevent breakage from child margin settings */
+}
+
+.MyMessage {
+  align-self: flex-end;
+  max-width: 60%;
+  margin: 5px;
+}
+
+.TheirMessage {
+  align-self: flex-start;
+  max-width: 60%;
+  margin: 5px;
+}

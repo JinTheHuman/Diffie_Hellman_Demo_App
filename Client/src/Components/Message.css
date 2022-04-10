@@ -1,0 +1,66 @@
+.message-text {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  align-self: center;
+
+  height: fit-content;
+  min-height: 1rem;
+
+  background-color: #efe81b;
+
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  
+  max-width: 20vw;
+  overflow-wrap: break-word;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sender-name {
+  color: rgb(179, 179, 179);
+
+  font-size: 0.5 rem;
+  align-self: flex-end;
+}
+
+.KeyButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.EnterKey {
+  margin-top: 10px;
+  width: 8vh;
+  align-self: center;
+}
+
+.key-img:hover {
+  border: solid 3px greenyellow;
+}
+
+.bubble {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.key-img {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 8vh;
+  background-color: white;
+  align-self: center;
+  border: solid transparent 3px;
+  min-height: 8vh;
+  min-width: 8vh;
+  margin-inline-end: 1vw;
+  margin-inline-start: 1vw;
+}
